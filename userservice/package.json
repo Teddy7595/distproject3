@@ -1,0 +1,26 @@
+{
+  "name": "userservice",
+  "version": "1.0.0",
+  "description": "webheader",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodemon index.js --ignore ./models"
+  },
+  "repository": "",
+  "author": "Teddy7595 <teddypottella@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-xml-bodyparser": "^0.3.0",
+    "mongoose": "5.13.14",
+    "mongoose-unique-validator": "^3.0.0",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

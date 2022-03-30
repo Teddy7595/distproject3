@@ -1,0 +1,25 @@
+{
+  "name": "dist_project",
+  "version": "1.0.0",
+  "description": "webheader",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodemon index.js"
+  },
+  "repository": "",
+  "author": "Teddy7595 <teddypottella@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-xml-bodyparser": "^0.3.0",
+    "node-fetch": "2.x",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

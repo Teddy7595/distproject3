@@ -1,0 +1,13 @@
+{
+  "name": "distproject3",
+  "version": "1.0.0",
+  "description": "Project to create a enviroment dedicated to SOA",
+  "main": "index.js",
+  "author": "Teddy Pottella <teddypottella@gmail.com>",
+  "license": "ISC",
+  "private": true,
+  "workspaces":[
+    "webserver",
+    "userservice"
+  ]
+}
